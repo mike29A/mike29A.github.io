@@ -1,0 +1,241 @@
+@charset "UTF-8";
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(76, 66, 66);
+  align-items: center;
+}
+
+#img-logo {
+  height: 100px;
+  border-radius: 20%;
+  padding-left: 10px;
+}
+
+#nav {
+  background-color: transparent;
+}
+
+#nav:hover {
+  background-color: transparent;
+  transition: 0.8s;
+  padding: 3px 10px;
+  border: rgb(202, 199, 201) 10px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#nav ul li {
+  display: flex;
+  float: right;
+}
+
+#nav ul li a {
+  font-family: cursive;
+  padding-top: 25px;
+  padding-right: 50px;
+  color: rgb(240, 233, 233);
+}
+
+/*info*/
+.btn {
+  margin-top: 0.7em;
+  position: absolute;
+  width: 1010px;
+  height: 190px;
+  margin-left: 9em;
+  border-radius: 50px;
+  background: #4c4242;
+  box-shadow: 38px 38px 56px #342d2d, -38px -38px 56px #645757;
+  overflow: hidden;
+}
+
+.btn::before {
+  text-align: center;
+  content: "¿BUSCANDO DONAS CASERAS EN TUXTLA GUTIERREZ?";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  text-shadow: 0.1rem 0.1rem 0.1rem #333;
+  transition: 0.2s ease;
+}
+
+.btn::after {
+  content: "NO BUSQUE EN MÁS LUGARES QUE EN DONUTS STATION, CON UNA GRAN SELECCIÓN DE SABROSOS DONAS, HORNEADAS CON AMOR POR NUESTROS EXPERTOS ARTESANOS, NUESTRA TIENDA DE DONAS CON UNA GRAN SELECCIÓN DE SABROSOS DONAS, HORNEADAS CON AMOR POR NUESTROS EXPERTOS ARTESANOS, NUESTRA TIENDA DE DONAS EXPLORE NUESTRA GAMA DE SABORES, DESDE LOS CLÁSICOS DE ANTAÑO HASTA LAS EXCITANTES CREACIONES DE LA CASA, Y DISFRUTE DEL CÁLIDO ENTORNO DE NUESTRA TIENDA. VISÍTENOS HOY SI TIENE UNA PREGUNTA ESPECÍFICA. SU AVENTURA DE DONAS COMIENZA AQUÍ.";
+  position: relative;
+  left: 1.2%;
+  margin-left: 0.8em;
+  top: 1em;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: 0.2s ease;
+  opacity: 0;
+}
+
+.btn:hover::before {
+  transform: translate(-50%, -50%) scale(3);
+  opacity: 0;
+}
+
+.btn:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.circle {
+  padding-top: 20px;
+  text-align: center;
+  padding-top: 10px;
+  width: 200px;
+  height: 190px;
+  border-radius: 175px;
+  background: #4c4242;
+  box-shadow: 21px 21px 42px #1e1a1a, -21px -21px 42px #7a6a6a;
+  margin-left: 1em; 
+}
+
+/*-------------------*/
+.btn1 {
+  margin-top: 5em;
+  position: absolute;
+  width: 1000px;
+  height: 180px;
+  margin-left: 35em;
+  border-radius: 50px;
+  background: #4c4242;
+  box-shadow: 38px 38px 56px #342d2d, -38px -38px 56px #645757;
+  overflow: hidden;
+}
+
+.btn1::before {
+  text-align: center;
+  content: "MISION";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  text-shadow: 0.1rem 0.1rem 0.1rem #333;
+  transition: 0.2s ease;
+}
+
+.btn1::after {
+  content: "NUESTRA MISIÓN ES TOCAR Y MEJORAR VIDAS A TRAVÉS DE LA ALEGRÍA QUE ES DONUTS STATION, HACERLES SABER QUE SOMOS LA MEJOR TIENDA DE DONONAS.";
+  position: relative;
+  top: 35%;
+  left: 2%;
+  text-align: center;
+  margin-left: 1em;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: 0.2s ease;
+  opacity: 0;
+}
+
+.btn1:hover::before {
+  transform: translate(-50%, -50%) scale(3);
+  opacity: 0;
+}
+
+.btn1:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.circles {
+  text-align: center;
+  margin-top: 4em;
+  margin-left: 95em;
+  width: 200px;
+  height: 200px;
+  border-radius: 175px;
+  background: #4c4242;
+  box-shadow: -21px -21px 42px #1e1a1a, 21px 21px 42px #7a6a6a;
+}
+
+/*--------------------------*/
+.btn2 {
+  margin-top: 5em;
+  position: absolute;
+  width: 1000px;
+  height: 180px;
+  margin-left: 10em;
+  border-radius: 50px;
+  background: #4c4242;
+  box-shadow: 38px 38px 56px #342d2d, -38px -38px 56px #645757;
+  overflow: hidden;
+}
+
+.btn2::before {
+  text-align: center;
+  content: "VISION";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  text-shadow: 0.1rem 0.1rem 0.1rem #333;
+  transition: 0.2s ease;
+}
+
+.btn2::after {
+  content: "NUESTRA VISIÓN ES SER EL LÍDER MUNDIAL EN CREAR Y COMPARTIR GUSTOS DELICIOSOS...CREEMOS QUE...LOS CONSUMIDORES SON NUESTRA PRIORIDAD, EL CENTRO DE LA DOUGHNUT.NO HAY SUSTITUTO PARA LA CALIDAD EN NUESTRO SERVICIO A LOS CONSUMIDORES.UNA PRESENTACIÓN IMPECABLE ES CRÍTICA EN DONDE SE VENDE DONUTS STATION.DEBEMOS ESFORZARNOS EN PRODUCIR UN EQUIPO COLABORATIVO QUE SEA INSUPERABLE.DEBEMOS DAR LA MEJOR IMAGEN POSIBLE EN TODO LO QUE HACEMOS.NUNCA DEBEMOS CONFORMARNOS CON EL SEGUNDO LUGAR CUMPLIMOS CON NUESTROS COMPROMISOSDEBEMOS ENTRENAR A NUESTRO EQUIPO PARA OBTENER MEJORES RESULTADOS.";
+  position: relative;
+  top: 5%;
+  left: 2%;
+  text-align: center;
+  margin-left: 1em;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: 0.2s ease;
+  opacity: 0;
+}
+
+.btn2:hover::before {
+  transform: translate(-50%, -50%) scale(3);
+  opacity: 0;
+}
+
+.btn2:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.circless {
+  text-align: center;
+  margin-top: 4em;
+  margin-left: 1em;
+  width: 200px;
+  height: 200px;
+  border-radius: 175px;
+  background: #4c4242;
+  box-shadow: 24px -24px 47px #1e1a1a, -24px 24px 47px #7a6a6a;
+}
+
+footer {
+  border-top: double;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: white;
+  /*-----------------------------------------*/
+}

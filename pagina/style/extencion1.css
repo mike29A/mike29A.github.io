@@ -1,0 +1,140 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  
+  /*encabezadoo*/
+  #img-logo {
+    height: 100px;
+    border-radius: 20%;
+    padding-left: 10px;
+  }
+  
+  #nav {
+    background-color: transparent;
+  }
+  
+  #nav:hover {
+    background-color: transparent;
+    transition: 0.8s;
+    padding: 3px 10px;
+    border: rgb(234, 13, 138) 10px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  #nav ul li {
+    display: flex;
+    float: right;
+  }
+  
+  #nav ul li a {
+    font-family: cursive;
+    padding-top: 25px;
+    padding-right: 50px;
+    color: rgb(240, 233, 233);
+  }
+  
+  .con .c {
+    height: auto;
+    width: auto;
+    border-radius: 10em;
+    border-radius: 125px;
+    background: #4c4242;
+    box-shadow: -13px -13px 26px #2a2424, 13px 13px 26px #6e6060;
+  }
+  
+  /*-----------------------------------------*/
+  /*carrusel*/
+  .container{
+    position: center;
+    margin: auto;
+    background-color: transparent;
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 600px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 75px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20%;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 150px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: rgb(22, 17, 17);
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+  .btn{
+    background-color: aqua;
+    border-radius: 25%;
+    width: 20%;
+  }
+
+  /*pie de pagina*/
+  footer {
+    border-top: double;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    /*-----------------------------------------*/
+  }

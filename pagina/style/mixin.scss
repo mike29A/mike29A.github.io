@@ -1,0 +1,64 @@
+@mixin neo( $estado ,$br , $dis1 ){
+	color			: var(--negro);
+	transition		: all .4s ease;
+	border-radius 	: $br ;
+    @if $estado == 1 {
+		background-color	: var(--blanco);
+		box-shadow			: 
+			$dis1    $dis1    $dis1*2 var(--sombra-ppal),
+			$dis1*-1 $dis1*-1 $dis1*2 var(--sombra-sec),
+			inset 0 0 0 transparent,
+			inset 0 0 0 transparent;
+	
+    }
+
+    @else if $estado == 2 {
+		background-color	: var(--blanco);
+		box-shadow			: 
+			0 0 0 transparent,
+			0 0 0 transparent,
+			inset $dis1    $dis1    $dis1*2 var(--sombra-ppal),
+			inset $dis1*-1 $dis1*-1 $dis1*2 var(--sombra-sec);
+     }
+}
+
+
+
+@mixin cy{
+	border-radius: 175px;
+	background: #4c4242;
+	box-shadow:  21px 21px 42px #1e1a1a,
+				 -21px -21px 42px #7a6a6a;
+}
+
+
+@mixin cyc{
+	border-radius: 175px;
+	background: #4c4242;
+	box-shadow:  -21px -21px 42px #1e1a1a,
+				 21px 21px 42px #7a6a6a;
+}
+
+@mixin cyl{
+	border-radius: 175px;
+background: #4c4242;
+box-shadow:  24px -24px 47px #1e1a1a,
+             -24px 24px 47px #7a6a6a;
+}
+
+@mixin ee{
+	border-radius: 50px;
+	background: #4c4242;
+	box-shadow:  38px 38px 56px #342d2d,
+				 -38px -38px 56px #645757;
+}
+
+@mixin eu{
+	border-radius: 125px;
+	background: #4c4242;
+	box-shadow:  -13px -13px 26px #2a2424,
+				 13px 13px 26px #6e6060;
+}
+
+
+
